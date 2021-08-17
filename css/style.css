@@ -778,7 +778,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
+  min-height: 581px;
   padding: 40px;
   background-color: #ffffff;
   border-radius: 4px;
@@ -798,6 +798,11 @@ img {
   background-color: transparent;
   padding: 0;
   cursor: pointer;
+}
+
+.close-button:hover >.modal-button-close,
+.close-button:focus >.modal-button-close {
+  fill: var(--accent-color);
 }
 
 .modal-button-close {
@@ -933,10 +938,12 @@ img {
 
 .modal-form-checkbox-label {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 30px;
+  /* margin-left: 54px; */
 }
 
 .modal-form-checkbox-label::before {
@@ -981,4 +988,5 @@ img {
 
 .modal-form-checkbox-link {
   color: #2196F3;
+
 }
