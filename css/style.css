@@ -737,15 +737,53 @@ img {
   background-color: #2196f3;
 }
 
-.footer-submit-form {
-  display: flex;
-  flex-direction: column;
-}
 
 .footer-submit-head {
-  display: inline;
+  display: block;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
+
+.footer-submit-form-input-wrapper {
+  display: flex;
+}
+
+.footer-submit-form-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  color: var(--secondary-text-color);
+  background: none;
+}
+
+.footer-submit-form-input::placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0,6);
+}
+
+.button-submit {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.87;
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+  padding: 10px 29px;
+  min-width: 200px;
+  border: none;
+}
+
+.button-submit-icon {
+  fill: currentColor;
+  margin-left: 10px;
+}
+
+
 
 /* =====================Модальное окно========================= */
 
@@ -805,54 +843,6 @@ img {
 
 .modal-button-close {
   fill: #000000;
-}
-
-.footer-submit-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-submit-head {
-  margin-bottom: 20px;
-}
-
-.footer-submit-form-input-wrapper {
-  display: flex;
-}
-
-.footer-submit-form-input {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  padding: 15px 16px;
-  margin-right: 12px;
-  color: var(--secondary-text-color);
-  background: none;
-}
-
-.footer-submit-form-input::placeholder {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0,6);
-}
-
-.button-submit {
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.06em;
-  line-height: 1.87;
-  background-color: var(--accent-color);
-  color: var(--secondary-text-color);
-  padding: 10px 29px;
-  min-width: 200px;
-  border: none;
-}
-
-.button-submit-icon {
-  fill: currentColor;
-  margin-left: 10px;
 }
 
 
