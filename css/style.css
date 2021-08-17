@@ -978,3 +978,7 @@ img {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+
+.modal-form-checkbox-link {
+  color: #2196F3;
+}
