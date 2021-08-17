@@ -737,11 +737,9 @@ img {
   background-color: #2196f3;
 }
 
-.footer-submit-container {
-  position: relative;
-  /* display: flex;
-  flex-direction: column; */
-  /* margin-top: 8px; */
+.footer-submit-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-submit-head {
